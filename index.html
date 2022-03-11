@@ -5,8 +5,45 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    .footer{
+      display: inline-block;
+      width: 100%;
+      background-color: antiquewhite;
+      position: fixed;
+      left: 0; bottom: 0;
+    }
+
+    .footer__one{
+      width: 50%;
+      float: left;           
+    }
+
+    .footer__two img{
+      width: 100px;
+      height: 100px;     
+  }
+
+  ul>li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 25px;
+  }
+  </style>
 </head>
 <body>
-  
+  <div class="footer">
+    <div class="footer__one">
+      <ul>
+        <li>О нас</li>
+        <li>Контакты</li>
+        <li>Разработки</li>
+        <li>Главная</li>        
+      </ul>
+    </div>
+    <div class="footer__two">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/IMG_logo_%282017%29.svg" alt="">
+    </div>
+  </div>  
 </body>
 </html>
