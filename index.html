@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Мой сайт</title>
-    <link rel="stylesheet" href="/main.css" />
-    <style>
-      .header {
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+  <style>
+     .header {
         display: inline-block;
         background-color: rgb(226, 110, 110);
         padding: 30px 150px;
@@ -64,41 +64,82 @@
         font-size: 25px;
         color: #e40b0b;
       }
-    </style>
-  </head>
 
-  <body>
-    <header class="header">
-      <img
-        class="logo"
-        src="https://footinbel.by/wp-content/uploads/2021/02/logo-2.png"
-        alt="footinbel"
-      />
-      <ul class="menu">
-        <li class="item">
-          <a href="https://footinbel.by/" target="_blank">Главная</a>
-        </li>
-        <li class="item">
-          <a href="https://footinbel.by/news/" target="_blank">Новости</a>
-        </li>
-        <li class="item">
-          <a href="https://footinbel.by/videogalereya/" target="_blank"
-            >Видео</a
-          >
-        </li>
-        <li class="item">
-          <a href="https://footinbel.by/informatsiya/otzyvy/" target="_blank"
-            >Отзывы</a
-          >
-        </li>
-      </ul>
-      <button class="btn">
-        <a
-          href="https://training.github.com/downloads/ru/github-git-cheat-sheet/"
-          target="_blank"
-          >нажать</a
+    .footer{
+      display: inline-block;
+      width: 100%;
+      background-color: antiquewhite;
+      position: fixed;
+      left: 0; bottom: 0;
+    }
+
+    .footer__one{
+      width: 50%;
+      float: left;           
+    }
+
+    .footer__two img{
+      width: 100px;
+      height: 100px;     
+  }
+
+  ul>li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 25px;
+  }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <img
+      class="logo"
+      src="https://footinbel.by/wp-content/uploads/2021/02/logo-2.png"
+      alt="footinbel"
+    />
+    <ul class="menu">
+      <li class="item">
+        <a href="https://footinbel.by/" target="_blank">Главная</a>
+      </li>
+      <li class="item">
+        <a href="https://footinbel.by/news/" target="_blank">Новости</a>
+      </li>
+      <li class="item">
+        <a href="https://footinbel.by/videogalereya/" target="_blank"
+          >Видео</a
         >
-      </button>
-    </header>
-  </body>
+      </li>
+      <li class="item">
+        <a href="https://footinbel.by/informatsiya/otzyvy/" target="_blank"
+          >Отзывы</a
+        >
+      </li>
+    </ul>
+    <button class="btn">
+      <a
+        href="https://training.github.com/downloads/ru/github-git-cheat-sheet/"
+        target="_blank"
+        >нажать</a
+      >
+    </button>
+  <div class="footer">
+    <div class="footer__one">
+      <ul>
+        <li>О нас</li>
+        <li>Контакты</li>
+        <li>Разработки</li>
+        <li>Главная</li>        
+      </ul>
+    </div>
+    <div class="footer__two">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/IMG_logo_%282017%29.svg" alt="">
+    </div>
+  </div>  
+</body>
 </html>
+
+     
+   
+
+ 
+   
